@@ -11,7 +11,7 @@ import Footer from './components/Footer'
 
 const App = () => {
 
-  const [theme, setTheme] = useState(
+  const [theme, setTheme] = useState( // to persist theme even after refreshing the page
     localStorage.getItem('theme') ? localStorage.getItem('theme') : 'light'
   )
 

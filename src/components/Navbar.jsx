@@ -25,7 +25,7 @@ const Navbar = ({theme,setTheme}) => {
         <img src={assets.close_icon} alt='' className='w-5 absolute right-4
             top-4 sm:hidden' onClick={()=> setSidebarOpen(false)}/>
 
-        <a onClick={()=>setSidebarOpen(false)}href="#" 
+        <a onClick={()=>setSidebarOpen(false)}href="#"  // onClick methood to close sidebar when link is clicked
           className='sm:hover:border-b'>Home</a>
         <a onClick={()=>setSidebarOpen(false)} href="#services" 
           className='sm:hover:border-b'>Services</a>
